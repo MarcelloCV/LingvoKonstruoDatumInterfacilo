@@ -1,0 +1,21 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Ignore build output directories
+/build
+/out
+
+# Ignore IntelliJ IDEA project files
+/.idea
+/*.iml
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore specific files and/or directories
+/Tools and assets
+
