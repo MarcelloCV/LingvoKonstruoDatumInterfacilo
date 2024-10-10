@@ -1,8 +1,14 @@
-package conLang.personalLang.resources;// Generated from C:/Users/pc/Desktop/syntax.g4 by ANTLR 4.13.1
-import org.antlr.v4.runtime.atn.*;
-import org.antlr.v4.runtime.dfa.DFA;
+package progLang.personal.resources;// Generated from C:/Users/pc/Desktop/syntax.g4 by ANTLR 4.13.1
+
 import org.antlr.v4.runtime.*;
-import org.antlr.v4.runtime.tree.*;
+import org.antlr.v4.runtime.atn.ATN;
+import org.antlr.v4.runtime.atn.ATNDeserializer;
+import org.antlr.v4.runtime.atn.ParserATNSimulator;
+import org.antlr.v4.runtime.atn.PredictionContextCache;
+import org.antlr.v4.runtime.dfa.DFA;
+import org.antlr.v4.runtime.tree.ParseTreeListener;
+import org.antlr.v4.runtime.tree.TerminalNode;
+
 import java.util.List;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast", "CheckReturnValue"})
@@ -106,11 +112,11 @@ public class iParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_words; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof iListener ) ((iListener)listener).enterWords(this);
+			if ( listener instanceof iListener) ((iListener)listener).enterWords(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof iListener ) ((iListener)listener).exitWords(this);
+			if ( listener instanceof iListener) ((iListener)listener).exitWords(this);
 		}
 	}
 

@@ -1,8 +1,10 @@
-package conLang.personalLang.resources;// Generated from C:/Users/pc/Desktop/syntax.g4 by ANTLR 4.13.1
-import org.antlr.v4.runtime.Lexer;
-import org.antlr.v4.runtime.CharStream;
+package progLang.personal.resources;// Generated from C:/Users/pc/Desktop/syntax.g4 by ANTLR 4.13.1
+
 import org.antlr.v4.runtime.*;
-import org.antlr.v4.runtime.atn.*;
+import org.antlr.v4.runtime.atn.ATN;
+import org.antlr.v4.runtime.atn.ATNDeserializer;
+import org.antlr.v4.runtime.atn.LexerATNSimulator;
+import org.antlr.v4.runtime.atn.PredictionContextCache;
 import org.antlr.v4.runtime.dfa.DFA;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast", "CheckReturnValue", "this-escape"})
